@@ -8,7 +8,7 @@ public class Utility {
 	static Connection conn;
 
 	public static Connection createConnection() throws SQLException {
-		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/playground", "root", "0000");
+		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila", "root", "root");
 		return conn;
 	}
 
